@@ -1,0 +1,63 @@
+body {
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+}
+.images_Container {
+  display: inline;
+}
+
+.faceBookLogo {
+  background-color: white;
+  border-radius: 10px;
+  display: inline;
+  cursor: pointer;
+  margin-top: 250px;
+  margin-left: 500px;
+}
+
+.googleLogo {
+  width:250px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline;
+  margin-left: 85px;
+  cursor: pointer;
+}
+
+.appleLogo {
+  width: 258px;
+  background-color: white;
+  border-radius: 10px;
+  display: inline;
+  margin-left: 85px;
+  cursor: pointer;
+}
+
+
+.logosText {
+  display: inline-flex;
+  margin-left: 350px;;
+  margin-top: 35px;;
+  cursor: pointer;
+}
+
+.facebookText,
+.googleText,
+.appleText
+{
+  color: white;
+  font-size: 56px;
+  margin-left: 170px;
+
+}
+
+.facebookText:hover,
+.googleText:hover,
+.appleText:hover
+{
+  color: yellow;
+  font-weight: bold;
+}
